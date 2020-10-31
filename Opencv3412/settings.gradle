@@ -1,0 +1,3 @@
+include ':opencv_3.4.12'
+include ':app'
+rootProject.name = "Opencv3.4.12"

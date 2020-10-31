@@ -1,0 +1,75 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:2:1-32:12
+	package
+		ADDED from C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:3:7-27
+		INJECTED from C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml
+		INJECTED from C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:5:7-35
+		INJECTED from C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml
+		INJECTED from C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:4:7-34
+		INJECTED from C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml
+		INJECTED from C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:7:5-105
+	android:required
+		ADDED from C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:7:63-86
+	android:name
+		ADDED from C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:7:22-62
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:8:5-96
+	android:name
+		ADDED from C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:8:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:9:5-97
+	android:name
+		ADDED from C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:9:22-78
+uses-feature#android.hardware.camera
+ADDED from C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:11:5-84
+	android:required
+		ADDED from C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:11:58-82
+	android:name
+		ADDED from C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:11:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:12:5-94
+	android:required
+		ADDED from C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:12:68-92
+	android:name
+		ADDED from C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:12:19-67
+uses-feature#android.hardware.camera.front
+ADDED from C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:13:5-90
+	android:required
+		ADDED from C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:13:64-88
+	android:name
+		ADDED from C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:13:19-63
+uses-feature#android.hardware.camera.front.autofocus
+ADDED from C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:14:5-100
+	android:required
+		ADDED from C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:14:74-98
+	android:name
+		ADDED from C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:14:19-73
+uses-sdk
+ADDED from C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:31:5-47
+INJECTED from C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:31:5-47
+INJECTED from C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:31:5-47
+INJECTED from C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:31:5-47
+INJECTED from C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:31:5-47
+	android:targetSdkVersion
+		ADDED from C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:31:15-44
+		INJECTED from C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml
+		INJECTED from C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml
+		ADDED from C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:31:5-47
+		INJECTED from C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml
