@@ -90,10 +90,24 @@ class CameraActivity : AppCompatActivity() {
             Interpreter.Options().addDelegate(NnApiDelegate()))
     }
 
+
+
     private val detector by lazy {
         ObjectDetectionHelper(
             tflite,
             FileUtil.loadLabels(this, LABELS_PATH)
+        )
+    }
+
+    private val tflite2 by lazy {
+        Interpreter(
+            FileUtil.loadMappedFile(this, MODEL2_PATH),
+            Interpreter.Options().addDelegate(NnApiDelegate()))
+    }
+
+    private val face_detector by lazy {
+        faceDetector(
+            tflite2
         )
     }
 
@@ -328,5 +342,7 @@ class CameraActivity : AppCompatActivity() {
         private const val ACCURACY_THRESHOLD = 0.5f
         private const val MODEL_PATH = "coco_ssd_mobilenet_v1_1.0_quant.tflite"
         private const val LABELS_PATH = "coco_ssd_mobilenet_v1_1.0_labels.txt"
+
+        private const val MODEL2_PATH = "facenet.tflite"
     }
 }

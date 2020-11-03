@@ -13,3 +13,8 @@ reference (self save):
 https://medium.com/@estebanuri/real-time-face-recognition-with-android-tensorflow-lite-14e9c6cc53a5
 
 https://github.com/android/camera-samples
+
+https://github.com/tensorflow/examples/tree/master/lite/examples/object_detection
+
+https://medium.com/@estebanuri/real-time-face-recognition-with-android-tensorflow-lite-14e9c6cc53a5
+
