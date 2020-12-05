@@ -17,48 +17,48 @@
 17    <!-- </activity> -->
 18    <!-- </application> -->
 19    <uses-sdk
-19-->C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:31:5-47
+19-->C:\Users\carl9\Desktop\Github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:31:5-47
 20        android:minSdkVersion="14"
-20-->C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:31:5-47
+20-->C:\Users\carl9\Desktop\Github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:31:5-47
 21        android:targetSdkVersion="21" />
-21-->C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:31:15-44
+21-->C:\Users\carl9\Desktop\Github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:31:15-44
 22
 23    <uses-permission
-23-->C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:7:5-105
+23-->C:\Users\carl9\Desktop\Github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:7:5-105
 24        android:name="android.permission.CAMERA"
-24-->C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:7:22-62
+24-->C:\Users\carl9\Desktop\Github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:7:22-62
 25        android:required="true" />
-25-->C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:7:63-86
+25-->C:\Users\carl9\Desktop\Github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:7:63-86
 26    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-26-->C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:8:5-96
-26-->C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:8:22-77
+26-->C:\Users\carl9\Desktop\Github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:8:5-96
+26-->C:\Users\carl9\Desktop\Github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:8:22-77
 27    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-27-->C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:9:5-97
-27-->C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:9:22-78
+27-->C:\Users\carl9\Desktop\Github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:9:5-97
+27-->C:\Users\carl9\Desktop\Github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:9:22-78
 28
 29    <uses-feature
-29-->C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:11:5-84
+29-->C:\Users\carl9\Desktop\Github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:11:5-84
 30        android:name="android.hardware.camera"
-30-->C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:11:19-57
+30-->C:\Users\carl9\Desktop\Github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:11:19-57
 31        android:required="false" />
-31-->C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:11:58-82
+31-->C:\Users\carl9\Desktop\Github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:11:58-82
 32    <uses-feature
-32-->C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:12:5-94
+32-->C:\Users\carl9\Desktop\Github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:12:5-94
 33        android:name="android.hardware.camera.autofocus"
-33-->C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:12:19-67
+33-->C:\Users\carl9\Desktop\Github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:12:19-67
 34        android:required="false" />
-34-->C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:12:68-92
+34-->C:\Users\carl9\Desktop\Github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:12:68-92
 35    <uses-feature
-35-->C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:13:5-90
+35-->C:\Users\carl9\Desktop\Github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:13:5-90
 36        android:name="android.hardware.camera.front"
-36-->C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:13:19-63
+36-->C:\Users\carl9\Desktop\Github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:13:19-63
 37        android:required="false" />
-37-->C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:13:64-88
+37-->C:\Users\carl9\Desktop\Github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:13:64-88
 38    <uses-feature
-38-->C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:14:5-100
+38-->C:\Users\carl9\Desktop\Github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:14:5-100
 39        android:name="android.hardware.camera.front.autofocus"
-39-->C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:14:19-73
+39-->C:\Users\carl9\Desktop\Github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:14:19-73
 40        android:required="false" />
-40-->C:\Users\carl9\Desktop\github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:14:74-98
+40-->C:\Users\carl9\Desktop\Github\Opencv3412\opencv_3.4.12\java\AndroidManifest.xml:14:74-98
 41
 42</manifest>

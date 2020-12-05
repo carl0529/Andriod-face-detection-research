@@ -16,6 +16,7 @@
 
 package com.android.example.cameraxbasic
 
+import android.Manifest
 import android.content.Context
 import android.os.Bundle
 import android.view.KeyEvent
@@ -23,8 +24,12 @@ import androidx.appcompat.app.AppCompatActivity
 import java.io.File
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
 import android.content.Intent
+import android.graphics.Bitmap
 import android.widget.FrameLayout
 import com.android.example.cameraxbasic.utils.FLAGS_FULLSCREEN
+import kotlin.random.Random
+
+import org.tensorflow.lite.support.image.TensorImage
 
 const val KEY_EVENT_ACTION = "key_event_action"
 const val KEY_EVENT_EXTRA = "key_event_extra"
@@ -35,7 +40,14 @@ private const val IMMERSIVE_FLAG_TIMEOUT = 500L
  * functionality is implemented in the form of fragments.
  */
 class MainActivity : AppCompatActivity() {
+    private val permissions = listOf(Manifest.permission.CAMERA)
+    private val permissionsRequestCode = Random.nextInt(0, 10000)
+
     private lateinit var container: FrameLayout
+    private lateinit var bitmap: Bitmap
+    private var pauseAnalysis = false
+    private val tfImageBuffer = TensorImage(DataType.UINT8)
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

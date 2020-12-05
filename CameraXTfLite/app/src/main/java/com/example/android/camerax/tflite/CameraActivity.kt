@@ -84,25 +84,28 @@ class CameraActivity : AppCompatActivity() {
             .build()
     }
 
-    private val tflite by lazy {
+    private val tfInputSize by lazy {
+        val inputIndex = 0
+        val inputShape = obj_tflite.getInputTensor(inputIndex).shape()
+        Size(inputShape[2], inputShape[1]) // Order of axis is: {1, height, width, 3}
+    }    
+    //=================================================================================================================
+    // object detection load model
+
+    private val obj_tflite by lazy {
         Interpreter(
-            FileUtil.loadMappedFile(this, MODEL_PATH),
+            FileUtil.loadMappedFile(this, OBJ_DET_MODEL_PATH),
             Interpreter.Options().addDelegate(NnApiDelegate()))
     }
 
-    private val detector by lazy {
-        ObjectDetectionHelper(
-            tflite,
-            FileUtil.loadLabels(this, LABELS_PATH)
+    private val obj_detector by lazy {
+        ObjectDetection(
+            obj_tflite,
+            FileUtil.loadLabels(this, OBJ_DET_LABELS_PATH)
         )
     }
-
-    private val tfInputSize by lazy {
-        val inputIndex = 0
-        val inputShape = tflite.getInputTensor(inputIndex).shape()
-        Size(inputShape[2], inputShape[1]) // Order of axis is: {1, height, width, 3}
-    }
-
+    //=================================================================================================================
+    // main 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_camera)
@@ -136,6 +139,7 @@ class CameraActivity : AppCompatActivity() {
         }
     }
 
+    //-----------------------------------------------------------------------------------------------------------------
     /** Declare and bind preview and analysis use cases */
     @SuppressLint("UnsafeExperimentalUsageError")
     private fun bindCameraUseCases() = view_finder.post {
@@ -185,10 +189,10 @@ class CameraActivity : AppCompatActivity() {
                 val tfImage =  tfImageProcessor.process(tfImageBuffer.apply { load(bitmapBuffer) })
 
                 // Perform the object detection for the current frame
-                val predictions = detector.predict(tfImage)
+                val obj_predictions = obj_detector.predict(tfImage)
 
                 // Report only the top prediction
-                reportPrediction(predictions.maxBy { it.score })
+                report_obj_Prediction(obj_predictions.maxBy { it.score })
 
                 // Compute the FPS of the entire pipeline
                 val frameCount = 10
@@ -216,8 +220,8 @@ class CameraActivity : AppCompatActivity() {
         }, ContextCompat.getMainExecutor(this))
     }
 
-    private fun reportPrediction(
-        prediction: ObjectDetectionHelper.ObjectPrediction?
+    private fun report_obj_Prediction(
+        prediction: ObjectDetection.ObjectPrediction?
     ) = view_finder.post {
 
         // Early exit: if prediction is not good enough, don't report it
@@ -244,6 +248,7 @@ class CameraActivity : AppCompatActivity() {
         text_prediction.visibility = View.VISIBLE
     }
 
+    //-----------------------------------------------------------------------------------------------------------------
     /**
      * Helper function used to map the coordinates for objects coming out of
      * the model into the coordinates that the user sees on the screen.
@@ -292,6 +297,9 @@ class CameraActivity : AppCompatActivity() {
         }
     }
 
+
+    //=================================================================================================================
+    // main 
     override fun onResume() {
         super.onResume()
 
@@ -322,11 +330,17 @@ class CameraActivity : AppCompatActivity() {
         ContextCompat.checkSelfPermission(context, it) == PackageManager.PERMISSION_GRANTED
     }
 
+    //=================================================================================================================
+    // load model 
     companion object {
         private val TAG = CameraActivity::class.java.simpleName
 
         private const val ACCURACY_THRESHOLD = 0.5f
-        private const val MODEL_PATH = "coco_ssd_mobilenet_v1_1.0_quant.tflite"
-        private const val LABELS_PATH = "coco_ssd_mobilenet_v1_1.0_labels.txt"
+        private const val OBJ_DET_MODEL_PATH  = "coco_ssd_mobilenet_v1_1.0_quant.tflite"
+        private const val OBJ_DET_LABELS_PATH = "coco_ssd_mobilenet_v1_1.0_labels.txt"
+
+        private const val FACE_DET_MODEL_PATH  = ".tflite"
+        private const val FACE_DET_LABELS_PATH = ".txt"
+
     }
 }

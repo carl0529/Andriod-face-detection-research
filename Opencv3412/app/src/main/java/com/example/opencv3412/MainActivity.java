@@ -164,8 +164,8 @@ public class MainActivity extends AppCompatActivity implements CameraBridgeViewB
 
     String base_path = Environment.getExternalStorageDirectory().toString();
 
-    String tinyYoloCfg ="/mnt/sdcard/dnn_model/yolov3-tiny.cfg";
-    String tinyYoloWeights =  "/mnt/sdcard/dnn_model/yolov3-tiny.weights";
+    String tinyYoloCfg ="file://assets/yolov3-tiny.cfg";
+    String tinyYoloWeights =  "file://assets/yolov3-tiny.weights";
     ///mnt/sdcard/dnn_model/yolov3-tiny.cfg
     public void Yolo(View Button){
         if (startYolo == false){
