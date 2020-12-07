@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\carl9\\Documents\\GitHub\\Andriod-face-detection-research\\CameraX_mod\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\camera_ui_container.xml",
+        "source": "C:\\Users\\carl9\\Documents\\GitHub\\Andriod-face-detection-research\\CameraX_mod\\app\\src\\main\\res\\layout\\camera_ui_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\carl9\\Documents\\GitHub\\Andriod-face-detection-research\\CameraX_mod\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_gallery.xml",
+        "source": "C:\\Users\\carl9\\Documents\\GitHub\\Andriod-face-detection-research\\CameraX_mod\\app\\src\\main\\res\\layout\\fragment_gallery.xml"
+    },
+    {
+        "merged": "C:\\Users\\carl9\\Documents\\GitHub\\Andriod-face-detection-research\\CameraX_mod\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\carl9\\Documents\\GitHub\\Andriod-face-detection-research\\CameraX_mod\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\carl9\\Documents\\GitHub\\Andriod-face-detection-research\\CameraX_mod\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_camera.xml",
+        "source": "C:\\Users\\carl9\\Documents\\GitHub\\Andriod-face-detection-research\\CameraX_mod\\app\\src\\main\\res\\layout\\fragment_camera.xml"
+    }
+]

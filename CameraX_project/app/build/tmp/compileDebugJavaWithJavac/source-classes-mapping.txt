@@ -1,0 +1,14 @@
+com/android/example/camerax/tflite/BuildConfig.java
+ com.android.example.camerax.tflite.BuildConfig
+com/android/example/camerax/tflite/ml/FacenetHiroki.java
+ com.android.example.camerax.tflite.ml.FacenetHiroki
+ com.android.example.camerax.tflite.ml.FacenetHiroki$1
+ com.android.example.camerax.tflite.ml.FacenetHiroki$Outputs
+com/android/example/camerax/tflite/ml/Facenet.java
+ com.android.example.camerax.tflite.ml.Facenet
+ com.android.example.camerax.tflite.ml.Facenet$1
+ com.android.example.camerax.tflite.ml.Facenet$Outputs
+com/android/example/camerax/tflite/ml/CocoSsdMobilenetV110Quant.java
+ com.android.example.camerax.tflite.ml.CocoSsdMobilenetV110Quant
+ com.android.example.camerax.tflite.ml.CocoSsdMobilenetV110Quant$1
+ com.android.example.camerax.tflite.ml.CocoSsdMobilenetV110Quant$Outputs

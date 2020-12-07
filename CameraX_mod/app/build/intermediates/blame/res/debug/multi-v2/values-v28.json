@@ -1,0 +1,47 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\carl9\\Documents\\GitHub\\Andriod-face-detection-research\\CameraX_mod\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v28\\values-v28.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\carl9\\Documents\\GitHub\\Andriod-face-detection-research\\CameraX_mod\\app\\src\\main\\res\\values-v28\\styles.xml",
+                    "from": {
+                        "startLines": "19",
+                        "startColumns": "4",
+                        "startOffsets": "745",
+                        "endLines": "21",
+                        "endColumns": "12",
+                        "endOffsets": "905"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "213"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\carl9\\.gradle\\caches\\transforms-2\\files-2.1\\bf9e33dc949dc2d485e879904cd67b88\\appcompat-1.2.0\\res\\values-v28\\values-v28.xml",
+                    "from": {
+                        "startLines": "2,3,4,8",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,447",
+                        "endLines": "2,3,7,11",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,442,684"
+                    },
+                    "to": {
+                        "startLines": "5,6,7,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "218,293,380,610",
+                        "endLines": "5,6,10,14",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "288,375,605,847"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\utils\src\main\AndroidManifest.xml:17:1-56
+INJECTED from C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\utils\src\main\AndroidManifest.xml:17:1-56
+INJECTED from C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\utils\src\main\AndroidManifest.xml:17:1-56
+INJECTED from C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\utils\src\main\AndroidManifest.xml:17:1-56
+INJECTED from C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\utils\src\main\AndroidManifest.xml:17:1-56
+INJECTED from C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\utils\src\main\AndroidManifest.xml:17:1-56
+INJECTED from C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\utils\src\main\AndroidManifest.xml:17:1-56
+	package
+		ADDED from C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\utils\src\main\AndroidManifest.xml:17:11-53
+		INJECTED from C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\utils\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\utils\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\utils\src\main\AndroidManifest.xml
+		ADDED from C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\utils\src\main\AndroidManifest.xml:17:1-56
+		INJECTED from C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\utils\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\utils\src\main\AndroidManifest.xml:17:1-56
+	android:versionCode
+		INJECTED from C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\utils\src\main\AndroidManifest.xml
+		ADDED from C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\utils\src\main\AndroidManifest.xml:17:1-56
+		INJECTED from C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\utils\src\main\AndroidManifest.xml
+uses-sdk
+INJECTED from C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\utils\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\utils\src\main\AndroidManifest.xml
+INJECTED from C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\utils\src\main\AndroidManifest.xml
+INJECTED from C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\utils\src\main\AndroidManifest.xml
+INJECTED from C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\utils\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\utils\src\main\AndroidManifest.xml
+		ADDED from C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\utils\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\utils\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\utils\src\main\AndroidManifest.xml
+		ADDED from C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\utils\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\utils\src\main\AndroidManifest.xml

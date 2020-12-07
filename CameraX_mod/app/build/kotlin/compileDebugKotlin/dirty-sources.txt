@@ -1,0 +1,5 @@
+C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_mod\app\src\main\java\com\android\example\cameraxbasic\fragments\FaceDetection.kt
+C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_mod\app\src\main\java\com\android\example\cameraxbasic\fragments\CameraFragment.kt
+C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_mod\app\src\main\java\com\android\example\cameraxbasic\fragments\PermissionsFragment.kt
+C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_mod\app\src\main\java\com\android\example\cameraxbasic\utils\ViewExtensions.kt
+C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_mod\app\src\main\java\com\android\example\cameraxbasic\MainActivity.kt

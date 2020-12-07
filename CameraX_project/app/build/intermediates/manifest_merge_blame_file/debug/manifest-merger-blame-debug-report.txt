@@ -1,0 +1,121 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.android.example.camerax.tflite"
+4    android:versionCode="1"
+5    android:versionName="0.0.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\app\src\main\AndroidManifest.xml
+10
+11    <!-- Declare features -->
+12    <uses-feature android:name="android.hardware.camera" />
+12-->C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\app\src\main\AndroidManifest.xml:7:5-60
+12-->C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\app\src\main\AndroidManifest.xml:7:19-57
+13
+14    <!-- Declare permissions -->
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\app\src\main\AndroidManifest.xml:10:5-65
+15-->C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\app\src\main\AndroidManifest.xml:10:22-62
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\app\src\main\AndroidManifest.xml:11:5-79
+16-->C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\app\src\main\AndroidManifest.xml:11:22-77
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\app\src\main\AndroidManifest.xml:12:5-80
+17-->C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\app\src\main\AndroidManifest.xml:12:22-78
+18
+19    <application
+19-->C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\app\src\main\AndroidManifest.xml:14:5-33:19
+20        android:allowBackup="true"
+20-->C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\app\src\main\AndroidManifest.xml:15:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.1.0] C:\Users\carl9\.gradle\caches\transforms-2\files-2.1\55ddc0d8a18f09d3c2c681d64bf039fe\core-1.1.0\AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\app\src\main\AndroidManifest.xml:16:9-43
+24        android:label="TFlite Project"
+24-->C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\app\src\main\AndroidManifest.xml:17:9-39
+25        android:roundIcon="@mipmap/ic_launcher"
+25-->C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\app\src\main\AndroidManifest.xml:18:9-48
+26        android:supportsRtl="true"
+26-->C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\app\src\main\AndroidManifest.xml:19:9-35
+27        android:testOnly="true"
+28        android:theme="@style/AppTheme" >
+28-->C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\app\src\main\AndroidManifest.xml:20:9-40
+29        <activity
+29-->C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\app\src\main\AndroidManifest.xml:23:9-32:20
+30            android:name="com.example.android.camerax.tflite_project.CameraActivity"
+30-->C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\app\src\main\AndroidManifest.xml:24:13-85
+31            android:rotationAnimation="seamless" >
+31-->C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\app\src\main\AndroidManifest.xml:25:13-49
+32            <intent-filter>
+32-->C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\app\src\main\AndroidManifest.xml:27:13-31:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\app\src\main\AndroidManifest.xml:28:17-68
+33-->C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\app\src\main\AndroidManifest.xml:28:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\app\src\main\AndroidManifest.xml:29:17-76
+35-->C:\Users\carl9\Documents\GitHub\Andriod-face-detection-research\CameraX_project\app\src\main\AndroidManifest.xml:29:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <service
+39-->[com.google.android.gms:play-services-mlkit-face-detection:16.1.1] C:\Users\carl9\.gradle\caches\transforms-2\files-2.1\796eff932b2bc457021a68effb4831a8\jetified-play-services-mlkit-face-detection-16.1.1\AndroidManifest.xml:9:9-15:19
+40            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+40-->[com.google.android.gms:play-services-mlkit-face-detection:16.1.1] C:\Users\carl9\.gradle\caches\transforms-2\files-2.1\796eff932b2bc457021a68effb4831a8\jetified-play-services-mlkit-face-detection-16.1.1\AndroidManifest.xml:10:13-91
+41            android:directBootAware="true"
+41-->[com.google.mlkit:common:17.0.0] C:\Users\carl9\.gradle\caches\transforms-2\files-2.1\55daa481164d93a54090d6fc171046a8\jetified-common-17.0.0\AndroidManifest.xml:17:13-43
+42            android:exported="false" >
+42-->[com.google.android.gms:play-services-mlkit-face-detection:16.1.1] C:\Users\carl9\.gradle\caches\transforms-2\files-2.1\796eff932b2bc457021a68effb4831a8\jetified-play-services-mlkit-face-detection-16.1.1\AndroidManifest.xml:11:13-37
+43            <meta-data
+43-->[com.google.android.gms:play-services-mlkit-face-detection:16.1.1] C:\Users\carl9\.gradle\caches\transforms-2\files-2.1\796eff932b2bc457021a68effb4831a8\jetified-play-services-mlkit-face-detection-16.1.1\AndroidManifest.xml:12:13-14:85
+44                android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar"
+44-->[com.google.android.gms:play-services-mlkit-face-detection:16.1.1] C:\Users\carl9\.gradle\caches\transforms-2\files-2.1\796eff932b2bc457021a68effb4831a8\jetified-play-services-mlkit-face-detection-16.1.1\AndroidManifest.xml:13:17-114
+45                android:value="com.google.firebase.components.ComponentRegistrar" />
+45-->[com.google.android.gms:play-services-mlkit-face-detection:16.1.1] C:\Users\carl9\.gradle\caches\transforms-2\files-2.1\796eff932b2bc457021a68effb4831a8\jetified-play-services-mlkit-face-detection-16.1.1\AndroidManifest.xml:14:17-82
+46            <meta-data
+46-->[com.google.mlkit:vision-common:16.1.0] C:\Users\carl9\.gradle\caches\transforms-2\files-2.1\498ec0e5520b210eac7e6273ca947606\jetified-vision-common-16.1.0\AndroidManifest.xml:12:13-14:85
+47                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+47-->[com.google.mlkit:vision-common:16.1.0] C:\Users\carl9\.gradle\caches\transforms-2\files-2.1\498ec0e5520b210eac7e6273ca947606\jetified-vision-common-16.1.0\AndroidManifest.xml:13:17-124
+48                android:value="com.google.firebase.components.ComponentRegistrar" />
+48-->[com.google.mlkit:vision-common:16.1.0] C:\Users\carl9\.gradle\caches\transforms-2\files-2.1\498ec0e5520b210eac7e6273ca947606\jetified-vision-common-16.1.0\AndroidManifest.xml:14:17-82
+49            <meta-data
+49-->[com.google.mlkit:common:17.0.0] C:\Users\carl9\.gradle\caches\transforms-2\files-2.1\55daa481164d93a54090d6fc171046a8\jetified-common-17.0.0\AndroidManifest.xml:20:13-22:85
+50                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+50-->[com.google.mlkit:common:17.0.0] C:\Users\carl9\.gradle\caches\transforms-2\files-2.1\55daa481164d93a54090d6fc171046a8\jetified-common-17.0.0\AndroidManifest.xml:21:17-120
+51                android:value="com.google.firebase.components.ComponentRegistrar" />
+51-->[com.google.mlkit:common:17.0.0] C:\Users\carl9\.gradle\caches\transforms-2\files-2.1\55daa481164d93a54090d6fc171046a8\jetified-common-17.0.0\AndroidManifest.xml:22:17-82
+52        </service>
+53
+54        <provider
+54-->[com.google.mlkit:common:17.0.0] C:\Users\carl9\.gradle\caches\transforms-2\files-2.1\55daa481164d93a54090d6fc171046a8\jetified-common-17.0.0\AndroidManifest.xml:9:9-13:38
+55            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+55-->[com.google.mlkit:common:17.0.0] C:\Users\carl9\.gradle\caches\transforms-2\files-2.1\55daa481164d93a54090d6fc171046a8\jetified-common-17.0.0\AndroidManifest.xml:10:13-78
+56            android:authorities="com.android.example.camerax.tflite.mlkitinitprovider"
+56-->[com.google.mlkit:common:17.0.0] C:\Users\carl9\.gradle\caches\transforms-2\files-2.1\55daa481164d93a54090d6fc171046a8\jetified-common-17.0.0\AndroidManifest.xml:11:13-69
+57            android:exported="false"
+57-->[com.google.mlkit:common:17.0.0] C:\Users\carl9\.gradle\caches\transforms-2\files-2.1\55daa481164d93a54090d6fc171046a8\jetified-common-17.0.0\AndroidManifest.xml:12:13-37
+58            android:initOrder="99" />
+58-->[com.google.mlkit:common:17.0.0] C:\Users\carl9\.gradle\caches\transforms-2\files-2.1\55daa481164d93a54090d6fc171046a8\jetified-common-17.0.0\AndroidManifest.xml:13:13-35
+59
+60        <activity
+60-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\carl9\.gradle\caches\transforms-2\files-2.1\8b20123f26a62819799f4d5c72b1636b\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+61            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+61-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\carl9\.gradle\caches\transforms-2\files-2.1\8b20123f26a62819799f4d5c72b1636b\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+62            android:exported="false"
+62-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\carl9\.gradle\caches\transforms-2\files-2.1\8b20123f26a62819799f4d5c72b1636b\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+63            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+63-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\carl9\.gradle\caches\transforms-2\files-2.1\8b20123f26a62819799f4d5c72b1636b\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+64
+65        <meta-data
+65-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\carl9\.gradle\caches\transforms-2\files-2.1\1bbcdc2b9fb0f9823b481726fb80644f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+66            android:name="com.google.android.gms.version"
+66-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\carl9\.gradle\caches\transforms-2\files-2.1\1bbcdc2b9fb0f9823b481726fb80644f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+67            android:value="@integer/google_play_services_version" />
+67-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\carl9\.gradle\caches\transforms-2\files-2.1\1bbcdc2b9fb0f9823b481726fb80644f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+68    </application>
+69
+70</manifest>
